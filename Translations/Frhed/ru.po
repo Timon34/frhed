@@ -429,7 +429,7 @@ msgstr "Во &всех контекстных меню"
 #: heksedit.rc:136
 #, c-format
 msgid "In &unknown context menu"
-msgstr "В &неизвестных контекстных меню"
+msgstr "В &неизвестном контекстном меню"
 
 #: heksedit.rc:137
 #, c-format
@@ -499,7 +499,7 @@ msgstr "&Помощь"
 #: heksedit.rc:167
 #, c-format
 msgid "&Help topics...\tF1"
-msgstr "Разделы справки...\tF1"
+msgstr "Разделы помощи...\tF1"
 
 #: heksedit.rc:169
 #, c-format
@@ -509,7 +509,7 @@ msgstr "&О программе Frhed..."
 #: heksedit.rc:183
 #, c-format
 msgid "Replace...\tCtrl+H"
-msgstr "Замена..."
+msgstr "Замена...\tCtrl+H"
 
 #: heksedit.rc:184
 #, c-format
@@ -627,7 +627,7 @@ msgstr "Найти:"
 #: heksedit.rc:318
 #, c-format
 msgid "Please refer to the online help's Using the Special Syntax section for searching for binary values."
-msgstr "Для поиска двоичных значений обратитесь к разделу онлайн-справки Использование специального синтаксиса."
+msgstr "Для поиска двоичных значений обратитесь к разделу онлайн-помощи Использование специального синтаксиса."
 
 #: heksedit.rc:319
 #, c-format
@@ -702,12 +702,12 @@ msgstr "Экспорт 16-ричного дампа"
 #: heksedit.rc:356
 #, c-format
 msgid "Start at offset:"
-msgstr "Начало со смещением:"
+msgstr "Начало со смещения:"
 
 #: heksedit.rc:358
 #, c-format
 msgid "End at offset:"
-msgstr "Конец со смещением:"
+msgstr "Конец со смещения:"
 
 #: heksedit.rc:360
 #, c-format
@@ -732,7 +732,7 @@ msgstr "Тип"
 #: heksedit.rc:364
 #, c-format
 msgid "Frhed display as text"
-msgstr "Frhed отображать как текст"
+msgstr "Frhed отображение в виде текста"
 
 #: heksedit.rc:365
 #, c-format
@@ -742,7 +742,7 @@ msgstr "Только 16-ричные цифры в строке"
 #: heksedit.rc:366
 #, c-format
 msgid "Frhed display as RTF"
-msgstr "Frhed отображать как RTF"
+msgstr "Frhed отображение в виде RTF"
 
 #: heksedit.rc:374
 #, c-format
@@ -757,7 +757,7 @@ msgstr "Введите десятичное значение:"
 #: heksedit.rc:379
 #, c-format
 msgid "At offset:"
-msgstr "При смещении:"
+msgstr "По смещению:"
 
 #: heksedit.rc:381
 #, c-format
@@ -816,13 +816,13 @@ msgstr "Вставить"
 #: heksedit.rc:665
 #, c-format
 msgid "Paste data how many times:"
-msgstr "Сколько раз вставлять данные:"
+msgstr "Вставить данные (раз):"
 
 #: heksedit.rc:407
 #: heksedit.rc:669
 #, c-format
 msgid "Paste coded binary values as text"
-msgstr "Вставлять закодированные двоичные значения в виде текста"
+msgstr "Вставить закодированные двоичные значения в виде текста"
 
 #: heksedit.rc:409
 #, c-format
@@ -843,17 +843,17 @@ msgstr "Вырезать со смещения:"
 #: heksedit.rc:424
 #, c-format
 msgid "Cut how many bytes"
-msgstr "Сколько байт вырезать"
+msgstr "Вырезать байт"
 
 #: heksedit.rc:425
 #, c-format
 msgid "Cut up to and including offset:"
-msgstr "Вырезать до смещения включительно:"
+msgstr "Вырезать до и включая смещение:"
 
 #: heksedit.rc:427
 #, c-format
 msgid "Number of bytes to cut:"
-msgstr "Количество вырезаемых байт:"
+msgstr "Вырезать байт:"
 
 #: heksedit.rc:437
 #: heksedit.rc:865
@@ -872,17 +872,17 @@ msgstr "Копировать со смещения:"
 #: heksedit.rc:442
 #, c-format
 msgid "Copy how many bytes"
-msgstr "Сколько байт копировать"
+msgstr "Копировать байт"
 
 #: heksedit.rc:443
 #, c-format
 msgid "Copy up to and including offset:"
-msgstr "Копировать до смещения включительно:"
+msgstr "Копировать до и включая смещение:"
 
 #: heksedit.rc:445
 #, c-format
 msgid "Number of bytes to copy:"
-msgstr "Количество копируемых байт:"
+msgstr "Копировать байт:"
 
 #: heksedit.rc:455
 #, c-format
@@ -892,7 +892,7 @@ msgstr "Параметры просмотра"
 #: heksedit.rc:458
 #, c-format
 msgid "Number of bytes to display per line:"
-msgstr "Количество байт, отображаемых в строке:"
+msgstr "Отображать байт в строке:"
 
 #: heksedit.rc:461
 #, c-format
@@ -907,7 +907,7 @@ msgstr "Отображение длины смещения в символах:"
 #: heksedit.rc:467
 #, c-format
 msgid "Adjust offset length to that of the max offset"
-msgstr "Коррекция длины смещения в соответствии с макс. смещением"
+msgstr "Установить длину смещения на максимум"
 
 #: heksedit.rc:470
 #, c-format
@@ -952,7 +952,7 @@ msgstr "Добавить"
 #: heksedit.rc:496
 #, c-format
 msgid "Bytes to append to the end of the file:"
-msgstr "Байты для добавления в конец файла:"
+msgstr "Добавляемые в конец файла байты:"
 
 #: heksedit.rc:504
 #, c-format
@@ -1047,7 +1047,7 @@ msgstr "Размер шрифта в пунктах:"
 #: heksedit.rc:556
 #, c-format
 msgid "Choose area of difference to display"
-msgstr "Выберите область различий для отображения"
+msgstr "Выберите область отличий для отображения"
 
 #: heksedit.rc:559
 #, c-format
@@ -1167,7 +1167,7 @@ msgstr "С конца файла"
 #: heksedit.rc:648
 #, c-format
 msgid "&How many bytes:"
-msgstr "Сколько байт"
+msgstr "Сколько байт:"
 
 #: heksedit.rc:650
 #, c-format
@@ -1322,7 +1322,7 @@ msgstr "Размер ввода:"
 #: heksedit.rc:741
 #, c-format
 msgid "# Times input fits:"
-msgstr ""
+msgstr "Соответствует количеству вводов:"
 
 #: heksedit.rc:743
 #, c-format
@@ -1342,7 +1342,7 @@ msgstr "Присвоить (=)"
 #: heksedit.rc:747
 #, c-format
 msgid "OR (|=)"
-msgstr ИЛИ (|=)""
+msgstr "ИЛИ (|=)"
 
 #: heksedit.rc:748
 #, c-format
@@ -1367,7 +1367,7 @@ msgstr "Загрузить следующие данные экземпляра:
 #: heksedit.rc:766
 #, c-format
 msgid "and save (when quiting) to this instance data:"
-msgstr "и сохранить (при выходе) данные этого экземпляра:"
+msgstr "и сохранить (при выходе) в данные этого экземпляра:"
 
 #: heksedit.rc:774
 #, c-format
@@ -1651,7 +1651,7 @@ msgstr ""
 #: heksedit.rc:929
 #, c-format
 msgid "Output"
-msgstr "Выход"
+msgstr "Вывод"
 
 #: heksedit.rc:930
 #, c-format
@@ -1706,17 +1706,17 @@ msgstr "Удалить со смещения:"
 #: heksedit.rc:971
 #, c-format
 msgid "Delete how many bytes"
-msgstr "Сколько байт удалить"
+msgstr "Удалить байт"
 
 #: heksedit.rc:972
 #, c-format
 msgid "Delete up to and including offset:"
-msgstr "Удалить до смещения включительно:"
+msgstr "Удалить до и включая смещение:"
 
 #: heksedit.rc:974
 #, c-format
 msgid "Number of bytes to delete:"
-msgstr "Количество удаляемых байт:"
+msgstr "Удалить байт:"
 
 #: heksedit.rc:990
 #, c-format
@@ -1776,7 +1776,7 @@ msgstr "Все файлы (*.*)|*.*|"
 #: heksedit.rc:1023
 #, c-format
 msgid "Untitled"
-msgstr "Без названия"
+msgstr "Безымянный"
 
 #: heksedit.rc:1026
 #, c-format
@@ -1878,7 +1878,7 @@ msgstr "Не удалось изменить размер файла."
 #: heksedit.rc:1055
 #, c-format
 msgid "Could not seek in file."
-msgstr "Не удалось выполнить поиск в файле."
+msgstr "Не удалось найти в файле."
 
 #: heksedit.rc:1056
 #, c-format
@@ -1888,7 +1888,7 @@ msgstr "Не удалось записать данные в файл."
 #: heksedit.rc:1057
 #, c-format
 msgid "Help file\n%s\nnot found!"
-msgstr "Файл справки\n%s\nне найден!"
+msgstr "Файл помощи\n%s\nне найден!"
 
 #: heksedit.rc:1058
 #, c-format
@@ -2028,12 +2028,12 @@ msgstr "Ошибка при открытии файла."
 #: heksedit.rc:1115
 #, c-format
 msgid "%d areas of difference found."
-msgstr "Найдены области различий: %d."
+msgstr "Найдены области отличий: %d."
 
 #: heksedit.rc:1116
 #, c-format
 msgid "Remaining loaded data size: %lld, size of file on disk: %lld."
-msgstr "Размер оставшихся загруженных данных: %lld, размер файла на диске: %lld."
+msgstr "Размер оставшихся загружаемых данных: %lld, размер файла на диске: %lld."
 
 #: heksedit.rc:1117
 #, c-format
@@ -2059,7 +2059,7 @@ msgstr "Недостаточно памяти для копирования."
 #: heksedit.rc:1126
 #, c-format
 msgid "\nDo you want the above output to be copied to the clipboard?\n"
-msgstr "\nхотите, скопировать приведенные выше выходные данные в буфер обмена?\n"
+msgstr "\nСкопировать выходные данные в буфер обмена?\n"
 
 #: heksedit.rc:1127
 #, c-format
@@ -2194,7 +2194,7 @@ msgstr "Невозможно переместить/скопировать бл�
 #: heksedit.rc:1194
 #, c-format
 msgid "&Size of file: %lld bytes. Load how many bytes:"
-msgstr "Размер файла: %lld байт. Сколько байт загружать:"
+msgstr "Размер файла: %lld байт. Загрузить байт:"
 
 #: heksedit.rc:1195
 #, c-format
@@ -2339,12 +2339,12 @@ msgstr "Невозможно открыть диск."
 #: heksedit.rc:1243
 #, c-format
 msgid "Cylinders"
-msgstr "Цилиндры"
+msgstr "Цилиндров"
 
 #: heksedit.rc:1244
 #, c-format
 msgid "Sectors"
-msgstr "Сектора"
+msgstr "Секторов"
 
 #: heksedit.rc:1245
 #, c-format
@@ -2474,7 +2474,7 @@ msgstr "Смещение %zd=0x%zx"
 #: heksedit.rc:1285
 #, c-format
 msgid "Bits"
-msgstr "Биты"
+msgstr "Бит"
 
 #: heksedit.rc:1286
 #, c-format
@@ -2509,7 +2509,7 @@ msgstr "Файл шаблона:"
 #: heksedit.rc:1300
 #, c-format
 msgid "Applied at offset:"
-msgstr "Применяется при смещении:"
+msgstr "Применено со смещения:"
 
 #: heksedit.rc:1301
 #, c-format
@@ -2576,7 +2576,7 @@ msgstr "-> Длина шаблона = %zu байт."
 #: heksedit.rc:1320
 #, c-format
 msgid "Template files (*.tpl)\0*.tpl\0\0"
-msgstr "Файлы шаблонов (*.tpl)\0*.tpl\0\0"
+msgstr "Файлы шаблона (*.tpl)\0*.tpl\0\0"
 
 #: heksedit.rc:1321
 #, c-format
@@ -2636,7 +2636,7 @@ msgstr "Имя файла и путь: "
 #: heksedit.rc:1345
 #, c-format
 msgid "\nPartially opened at offset 0x%zx = %zd.\nNumber of bytes read: %zd = %zd kilobytes.\n"
-msgstr "\nЧастично открыт со смещением 0x%zx = %zd.\nКоличество прочитанных байт: %zd = %zd килобайт.\n"
+msgstr "\nЧастично открыт со смещения 0x%zx = %zd.\nКоличество прочитанных байт: %zd = %zd килобайт.\n"
 
 #: heksedit.rc:1346
 #, c-format
