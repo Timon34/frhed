@@ -441,8 +441,12 @@
   <ItemGroup>
     <po Include="..\Translations\Frhed\de.po" />
     <po Include="..\Translations\Frhed\fr.po" />
+    <po Include="..\Translations\Frhed\gl.po" />
     <po Include="..\Translations\Frhed\ja.po" />
     <po Include="..\Translations\Frhed\nl.po" />
+    <po Include="..\Translations\Frhed\pl.po" />
+    <po Include="..\Translations\Frhed\ru.po" />
+    <po Include="..\Translations\Frhed\sk.po" />
     <po Include="..\Translations\Frhed\sl.po" />
   </ItemGroup>
   <ItemGroup>
