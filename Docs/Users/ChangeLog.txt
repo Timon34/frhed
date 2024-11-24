@@ -4,6 +4,9 @@ to Subversion revision numbers (rXXXXX).
 
 For changes in version 1.1 beta 1 and earlier, see the History.txt file.
 
+Frhed 0.10904.2017.15 (2024-11-24)
+  Added Russian translation
+
 Frhed 0.10904.2017.14 (2023-12-19)
   BugFix: Could not replace data at the end of the file
   Update French translation
