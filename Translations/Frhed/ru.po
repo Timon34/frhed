@@ -1,4 +1,4 @@
-# This file is part of Frhed <http://frhed.sourceforge.net/>
+﻿# This file is part of Frhed <http://frhed.sourceforge.net/>
 # Released under the "GNU General Public License"
 #
 msgid ""
@@ -2224,7 +2224,7 @@ msgstr "Выбранный блок распространяется на нес
 #: heksedit.rc:1210
 #, c-format
 msgid "Link names are \"Frhed.lnk\""
-msgstr Имена ссылок: \"Frhed.lnk\""
+msgstr "Имена ссылок: \"Frhed.lnk\""
 
 #: heksedit.rc:1211
 #, c-format
@@ -2702,3 +2702,4 @@ msgstr "Не удалось скопировать 16-ричный дамп в �
 #, c-format
 msgid "Hex Dump files(*.txt,*.hex)|*.txt;*.hex|All Files (*.*)|*.*|"
 msgstr "Файлы 16-ричного дампа (*.txt,*.hex)|*.txt;*.hex|Все файлы (*.*)|*.*|"
+
