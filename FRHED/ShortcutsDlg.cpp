@@ -365,8 +365,8 @@ BOOL ShortcutsDlg::OnCommand(HWindow *pDlg, WPARAM w, LPARAM l)
 									for (DWORD i = 0; ; i++)
 									{
 										typ = 0;
-										valnamsize = sizeof valnam;
-										valbufsize = sizeof valbuf;
+										valnamsize = sizeof valnam / sizeof valnam[0];
+										valbufsize = sizeof valbuf / sizeof valbuf[0];
 										valbuf[0] = valnam[0] = 0;
 										ret = RegEnumValue(hk, i, valnam, &valnamsize, 0, &typ, (BYTE*) valbuf, &valbufsize);
 										_tcsupr(valbuf);

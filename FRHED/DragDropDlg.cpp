@@ -58,7 +58,7 @@ BOOL DragDropDlg::OnInitDialog(HWindow *pDlg)
 			lvi.iSubItem = 0;
 			lvi.pszText = szFormatName;
 			// For registered formats, get the registered name.
-			if (!GetClipboardFormatName(temp, szFormatName, sizeof szFormatName))
+			if (!GetClipboardFormatName(temp, szFormatName, sizeof szFormatName / sizeof szFormatName[0]))
 			{
 				//Get the name of the standard clipboard format.
 				switch (temp)

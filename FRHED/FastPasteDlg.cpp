@@ -229,7 +229,7 @@ void FastPasteDlg::RefreshClipboardFormats(HWindow *pDlg)
 			lpFormatName = NULL;
 
 			// For registered formats, get the registered name.
-			if (GetClipboardFormatName(uFormat, szFormatName, sizeof(szFormatName)))
+			if (GetClipboardFormatName(uFormat, szFormatName, sizeof(szFormatName) / sizeof szFormatName[0]))
 				lpFormatName = szFormatName;
 			else
 			{
